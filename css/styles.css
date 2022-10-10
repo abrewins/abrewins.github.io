@@ -10,7 +10,28 @@ html {
 .image-container {
 	padding-top: 20px;
 	padding-bottom: 20px;
+
 	text-align: center;
+}
+
+.side-by-side{
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+}
+
+
+
+.image-container.brego img{
+	max-height: 80vh;
+	width:auto;
+
+}
+
+.side-by-side .image-container img{
+	max-height: 50vh;
+	width:auto;
+
 }
 
 section.banner {
@@ -18,6 +39,7 @@ section.banner {
 	color: white;
 	padding: 30px;
 	height: 100vh;
+	
 	background-size: cover;
 }
 
